@@ -35,13 +35,4 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
-    'firebase' => [
-        'api_key' => 'AIzaSyBd-GAmrEVmVC0jBTfOcobFIIpm1IkYECI',
-        'auth_domain' => 'chatapp-c269d.firebaseapp.com',
-        'database_url' => 'https://chatapp-c269d.firebaseio.com',
-        'secret' => 'dcTAd0Dv549pkwCsRLCDGN7R3o8xi1UwpCbZ2Yu5',
-        'storage_bucket' => 'chatapp-c269d.appspot.com',
-        'project_id' => 'chatapp-c269d',
-        'messaging_sender_id' => '618580074438'
-    ]
 ];
