@@ -1,6 +1,12 @@
 
 ## Laravel Firebase Chat
 
-Proyecto chat utilizando laravel, Vue.js y firebase.
+composer install
 
-- [Demo](http://laravel-chat.kscorrales.me).
+# migrate database
+php artisan key:generate
+
+# Set your database connection in .env file
+php artisan migrate
+
+
